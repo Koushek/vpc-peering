@@ -2,7 +2,7 @@
 
 # Define VPCs
 resource "aws_vpc" "vpc1" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = "182.0.0.0/16"
 
     tags = {
     Name = "first-vpc"
@@ -10,7 +10,7 @@ resource "aws_vpc" "vpc1" {
 }
 
 resource "aws_vpc" "vpc2" {
-  cidr_block = "10.1.0.0/16"
+  cidr_block = "182.1.0.0/16"
 
     tags = {
     Name = "second-vpc"
